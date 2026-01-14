@@ -75,7 +75,7 @@ export function HeroSection() {
                 <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center">
                   <CheckCircle2 className="w-4 h-4 text-accent" />
                 </div>
-                <h3 className="font-semibold text-foreground">With TrustPulse</h3>
+                <h3 className="font-semibold text-foreground">With Credly</h3>
               </div>
               <ul className="space-y-2.5 relative">
                 {[

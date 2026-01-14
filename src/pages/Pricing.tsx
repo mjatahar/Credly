@@ -159,8 +159,10 @@ export default function Pricing() {
             {plans.map((plan) => (
               <div
                 key={plan.name}
-                className={`relative bg-card rounded-2xl p-6 border shadow-card ${
-                  plan.popular ? "border-accent ring-2 ring-accent/20" : "border-border/60"
+                className={`relative bg-card rounded-2xl p-6 border shadow-card cursor-pointer transition-all duration-300 hover:scale-[1.02] ${
+                  plan.popular 
+                    ? "border-accent ring-2 ring-accent/20 hover:shadow-xl hover:ring-accent/40" 
+                    : "border-border/60 hover:border-accent/40 hover:shadow-lg"
                 }`}
               >
                 {plan.popular && (
@@ -211,7 +213,7 @@ export default function Pricing() {
             <div className="bg-secondary/30 rounded-2xl p-8 border border-border/40 text-center">
               <h3 className="text-xl font-semibold text-foreground mb-2">Start Free</h3>
               <p className="text-muted-foreground mb-6">
-                Get a taste of TrustPulse with limited features. No credit card required.
+                Get a taste of Credly with limited features. No credit card required.
               </p>
               <div className="flex flex-wrap justify-center gap-4 mb-6">
                 {freeFeatures.map((feature) => (
