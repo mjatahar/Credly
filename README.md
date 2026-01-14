@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # Credly
 
 Credly is a decision-intelligence platform for influencer marketing that helps brands and creators make credible, transparent collaboration decisions.
