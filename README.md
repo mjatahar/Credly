@@ -1,73 +1,107 @@
-# Welcome to your Lovable project
+# Creda
 
-## Project info
+Creda is a decision-intelligence platform for influencer marketing that helps brands and creators make credible, transparent collaboration decisions.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Instead of relying on vanity metrics like follower count and likes, Creda focuses on trust signals, explainable insights, and compatibility analysis so both sides understand why a collaboration makes sense before it happens.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## Problem Statement
 
-**Use Lovable**
+Influencer marketing today is largely driven by shallow signals and opaque decisions.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Common issues include:
+- Brands selecting creators based on popularity rather than fit
+- Creators being rejected or ignored without any explanation
+- Fake or misleading engagement signals
+- No visibility into brand quality from a creator’s perspective
+- No structured learning from past collaborations
 
-Changes made via Lovable will be committed automatically to this repo.
+This results in wasted time, poor partnerships, and loss of trust on both sides.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Solution
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Creda introduces an intelligence layer that sits before influencer collaborations.
 
-Follow these steps:
+The platform is designed to support decision-making, not transactions. It provides clarity, context, and reasoning so users can evaluate collaborations with confidence.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Key capabilities include:
+- Influencer Trust Scores based on behavioral and contextual signals
+- Explainable insights that show why a score or recommendation exists
+- Brand–creator compatibility analysis
+- Campaign fit evaluation for creators
+- Historical collaboration feedback and pattern recognition
+- Separate dashboards for brands and creators
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+All insights are presented in a neutral, human-readable manner.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## Target Users
 
-**Edit a file directly in GitHub**
+### Influencers / Creators
+- Understand how brands perceive their profile
+- Evaluate whether a campaign is suitable before applying
+- Assess brand quality and expectations
+- Learn from past collaborations
+- Track active collaborations, requests, and offers
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Brands
+- Discover and shortlist creators using trust and fit rather than hype
+- Compare creators using explainable decision signals
+- Reduce risk in influencer selection
+- Get a strategic overview of campaign health and creator quality
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Core Principles
 
-## What technologies are used for this project?
+- Decisions before deals
+- Transparency over black-box systems
+- Context over vanity metrics
+- Fit over popularity
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Technology Overview
 
-## How can I deploy this project?
+- Frontend-focused web application
+- Modern component-based UI
+- Uses mock data for demonstration
+- Initial structure generated using Lovable and extended manually
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+At this stage, the platform intentionally excludes payments, messaging, and real social media API integrations.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## Project Status
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- Early-stage prototype
+- Built for experimentation and hackathon use
+- Focused on UX, user flow, and decision clarity
+- Designed with future scalability in mind
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+## Future Scope
+
+- Deeper analytics and scoring logic
+- Social platform integrations
+- Team and agency workflows
+- Expansion beyond influencer marketing into broader collaboration and partnership use cases
+
+---
+
+## Contribution
+
+This project is currently in an exploratory phase.  
+Feedback, suggestions, and discussions are welcome.
+
+---
+
+## License
+
+This project is intended for learning, experimentation, and early-stage development.
+ble.dev/features/custom-domain#custom-domain)
