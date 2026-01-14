@@ -1,8 +1,8 @@
-# Creda
+# Credly
 
-Creda is a decision-intelligence platform for influencer marketing that helps brands and creators make credible, transparent collaboration decisions.
+Credly is a decision-intelligence platform for influencer marketing that helps brands and creators make credible, transparent collaboration decisions.
 
-Instead of relying on vanity metrics like follower count and likes, Creda focuses on trust signals, explainable insights, and compatibility analysis so both sides understand why a collaboration makes sense before it happens.
+Instead of relying on vanity metrics like follower count and likes, Credly focuses on trust signals, explainable insights, and compatibility analysis so both sides understand why a collaboration makes sense before it happens.
 
 ---
 
@@ -23,7 +23,7 @@ This results in wasted time, poor partnerships, and loss of trust on both sides.
 
 ## Solution
 
-Creda introduces an intelligence layer that sits before influencer collaborations.
+Credly introduces an intelligence layer that sits before influencer collaborations.
 
 The platform is designed to support decision-making, not transactions. It provides clarity, context, and reasoning so users can evaluate collaborations with confidence.
 
@@ -104,4 +104,3 @@ Feedback, suggestions, and discussions are welcome.
 ## License
 
 This project is intended for learning, experimentation, and early-stage development.
-ble.dev/features/custom-domain#custom-domain)
