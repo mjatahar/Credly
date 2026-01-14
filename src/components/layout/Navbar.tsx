@@ -22,7 +22,7 @@ export function Navbar() {
           <div className="w-8 h-8 rounded-lg bg-accent flex items-center justify-center">
             <Sparkles className="w-4 h-4 text-accent-foreground" />
           </div>
-          <span className="text-lg font-semibold text-foreground">TrustPulse</span>
+          <span className="text-lg font-semibold text-foreground">Credly</span>
         </Link>
 
         {/* Desktop Navigation */}

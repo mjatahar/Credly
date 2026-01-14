@@ -41,7 +41,7 @@ export function RolesSection() {
             Choose your perspective
           </h2>
           <p className="text-muted-foreground text-lg">
-            Whether you're a creator or a brand, TrustPulse gives you the intelligence to make better decisions.
+            Whether you're a creator or a brand, Credly gives you the intelligence to make better decisions.
           </p>
         </div>
 

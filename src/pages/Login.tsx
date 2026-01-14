@@ -32,7 +32,7 @@ export default function Login() {
                 Welcome back
               </h1>
               <p className="text-muted-foreground">
-                Log in to access your TrustPulse dashboard.
+                Log in to access your Credly dashboard.
               </p>
             </div>
 

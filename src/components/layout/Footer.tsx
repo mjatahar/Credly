@@ -33,7 +33,7 @@ export function Footer() {
               <div className="w-8 h-8 rounded-lg bg-accent flex items-center justify-center">
                 <Sparkles className="w-4 h-4 text-accent-foreground" />
               </div>
-              <span className="text-lg font-semibold">TrustPulse</span>
+              <span className="text-lg font-semibold">Credly</span>
             </Link>
             <p className="text-sm text-primary-foreground/70 leading-relaxed">
               Decision intelligence for influencer marketing. Make smarter partnerships based on trust, not vanity metrics.
@@ -62,7 +62,7 @@ export function Footer() {
 
         <div className="mt-12 pt-8 border-t border-primary-foreground/10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-primary-foreground/50">
-            <p>© 2024 TrustPulse. All rights reserved.</p>
+            <p>© 2024 Credly. All rights reserved.</p>
             <div className="flex gap-6">
               <Link to="#" className="hover:text-primary-foreground transition-colors">Terms</Link>
               <Link to="#" className="hover:text-primary-foreground transition-colors">Privacy</Link>

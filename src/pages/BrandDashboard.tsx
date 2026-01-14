@@ -21,13 +21,22 @@ import {
   Sparkles,
 } from "lucide-react";
 
-// Mock brand data
-const brandData = {
-  name: "Verdant Beauty",
-  campaigns: { active: 3, total: 12 },
-  shortlisted: 15,
-  avgTrustScore: 76,
-};
+// Mock brand data - 10 brands
+const brands = [
+  { id: 1, name: "Verdant Beauty", industry: "Skincare & Beauty", activeCampaigns: 3, totalCampaigns: 12, avgTrustScore: 76, shortlisted: 15 },
+  { id: 2, name: "FitNation", industry: "Fitness & Health", activeCampaigns: 2, totalCampaigns: 8, avgTrustScore: 82, shortlisted: 11 },
+  { id: 3, name: "TechZone India", industry: "Consumer Electronics", activeCampaigns: 4, totalCampaigns: 18, avgTrustScore: 71, shortlisted: 23 },
+  { id: 4, name: "NatureBites", industry: "Organic Food & Beverages", activeCampaigns: 1, totalCampaigns: 5, avgTrustScore: 88, shortlisted: 7 },
+  { id: 5, name: "StyleVerse", industry: "Fashion & Apparel", activeCampaigns: 3, totalCampaigns: 15, avgTrustScore: 79, shortlisted: 19 },
+  { id: 6, name: "WanderLux", industry: "Travel & Tourism", activeCampaigns: 2, totalCampaigns: 10, avgTrustScore: 75, shortlisted: 14 },
+  { id: 7, name: "EduSpark", industry: "EdTech & Learning", activeCampaigns: 1, totalCampaigns: 6, avgTrustScore: 84, shortlisted: 9 },
+  { id: 8, name: "GameHub", industry: "Gaming Accessories", activeCampaigns: 2, totalCampaigns: 9, avgTrustScore: 69, shortlisted: 12 },
+  { id: 9, name: "HomeNest", industry: "Home & Living", activeCampaigns: 2, totalCampaigns: 7, avgTrustScore: 81, shortlisted: 10 },
+  { id: 10, name: "FinWise", industry: "Fintech & Finance", activeCampaigns: 1, totalCampaigns: 4, avgTrustScore: 86, shortlisted: 6 },
+];
+
+// Current brand (first brand for demo)
+const brandData = brands[0];
 
 const campaignHealth = [
   { name: "Summer Glow Launch", status: "on-track", progress: 65, dueIn: "12 days" },
@@ -92,7 +101,7 @@ export default function BrandDashboard() {
                 </div>
                 <span className="text-sm text-muted-foreground">Active Campaigns</span>
               </div>
-              <p className="text-2xl font-bold text-foreground">{brandData.campaigns.active}</p>
+              <p className="text-2xl font-bold text-foreground">{brandData.activeCampaigns}</p>
             </div>
             <div className="bg-card rounded-xl p-5 border border-border/60 shadow-card">
               <div className="flex items-center gap-3 mb-3">
@@ -119,7 +128,7 @@ export default function BrandDashboard() {
                 </div>
                 <span className="text-sm text-muted-foreground">Total Campaigns</span>
               </div>
-              <p className="text-2xl font-bold text-foreground">{brandData.campaigns.total}</p>
+              <p className="text-2xl font-bold text-foreground">{brandData.totalCampaigns}</p>
             </div>
           </div>
 

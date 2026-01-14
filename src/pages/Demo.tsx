@@ -35,7 +35,7 @@ export default function Demo() {
                 Request a Demo
               </h1>
               <p className="text-muted-foreground">
-                See how TrustPulse can transform your influencer partnerships.
+                See how Credly can transform your influencer partnerships.
               </p>
             </div>
 
